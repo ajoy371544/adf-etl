@@ -1,0 +1,17 @@
+{
+	"name": "OnPremDatabase",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=True;data source=LAPTOP-8OSIK8HA\\SQLEXPRESS;initial catalog=MPS",
+			"userName": "LAPTOP-8OSIK8HA\\Ajoy Hazra",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIyOWE1ZjcyOS02NjE3LTQ4YTMtODkwMi1iZGVjYjA0MDM5OTMiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntimeonprem",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
