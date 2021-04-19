@@ -1,0 +1,9 @@
+{
+	"name": "adf-etl-onprem-azuresqlmi",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b695a7fc-9eb4-4ca9-9455-07334108c7ae",
+		"tenantId": "fe47b33d-80d5-466a-8172-2af23d0d8505"
+	}
+}
