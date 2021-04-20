@@ -1,0 +1,21 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-etl-onprem-azuresqlmi"
+		},
+		"AzureSqlMINotional_connectionString": {
+			"value": ""
+		},
+		"OnPremDatabase_connectionString": {
+			"value": ""
+		},
+		"OnPremDatabase_password": {
+			"value": ""
+		},
+		"OnPremDatabase_properties_typeProperties_userName": {
+			"value": "LAPTOP-8OSIK8HA\\Ajoy Hazra"
+		}
+	}
+}
