@@ -122,6 +122,7 @@
 						"typeProperties": {
 							"source": {
 								"type": "SqlServerSource",
+								"sqlReaderQuery": "Select * from dbo.employee where id > 2",
 								"queryTimeout": "02:00:00",
 								"partitionOption": "None"
 							},
