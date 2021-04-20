@@ -1,0 +1,34 @@
+{
+	"name": "AzureSqlMITable1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlMINotional",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlMITable",
+		"schema": [
+			{
+				"name": "id",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "code",
+				"type": "nvarchar"
+			},
+			{
+				"name": "description",
+				"type": "varchar"
+			},
+			{
+				"name": "timestamp",
+				"type": "timestamp"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Employee"
+		}
+	}
+}
